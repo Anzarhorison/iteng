@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Cristiano Ronaldo</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">baloon de'or</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Timnas Portugal</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="data:image/jpeg;base64,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" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">THE REAL GOAT</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">GOAT-ATLIT-Sepak Bola</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Foto GOAT</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-moon"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="data:image/jpeg;base64,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"ca alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="data:image/jpeg;base64,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" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlQkEAAByKe_ZnUV5-8q9zycuu1SXnQrjU0g&usqp=CAU" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Profil Cristiano Ronaldo</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Cristiano Ronaldo memiliki nama lengkap Cristiano Ronaldo dos Santos Aveiro yang lahir di Funchal pada tanggal 5 Februari 1985, adalah seorang pemain sepak bola yang berasal dari kebangsaan Portugal. Cristiano Ronaldo adalah anak bungsu pasangan Maria Dolores dos Santos Aveiro dan José Dinis Aveiro.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">Cristiano Ronaldo sudah melewati 500 gol liga bersama klub sepanjang kariernya. Total penyerang 38 tahun itu sudah mencetak 503 gol klub bersama Al Nassr, Manchester United, Juventus, Real Madrid, dan Sporting Lisbon</p></div>
+                </div>
+                <!-- About Section Button-->
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
